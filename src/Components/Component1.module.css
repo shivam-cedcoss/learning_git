@@ -1,0 +1,41 @@
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.main__container_img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sample__img {
+    width: 20vw;
+    height: 25vh;
+}
+
+.frontDiv {
+    border-radius: "4px";
+    cursor: pointer;
+}
+
+.backDiv {
+    border-radius: "4px";
+    cursor: pointer;
+}
+
